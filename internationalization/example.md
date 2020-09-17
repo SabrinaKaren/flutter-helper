@@ -1,4 +1,4 @@
-# Exemplo básico para testar se as configurações de 'internationalization' foram feitas com sucesso
+## Exemplo básico para testar se as configurações de 'internationalization' foram feitas com sucesso
 
 1°) Incluir um novo arquivo 'arb' dando como sigla 'pt':
 ![](https://github.com/SabrinaKaren/flutter-helper/blob/master/internationalization/assets/05_add_arb.png)
