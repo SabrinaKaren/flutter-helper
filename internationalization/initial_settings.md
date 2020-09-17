@@ -3,7 +3,7 @@
 1°) Instalar o plugin Flutter Intl na sua IDE
 
 2°) Incluir as dependências no pubspec.yaml destacadas na imagem abaixo:
-<img src="https://github.com/SabrinaKaren/flutter-helper/blob/master/internationalization/assets/01_dependencies.png" width="260">
+<img src="https://github.com/SabrinaKaren/flutter-helper/blob/master/internationalization/assets/01_dependencies.png" alt="background" width="260">
 
 3°) Incluir a configuração no pubspec.yaml destacada na imagem abaixo:
 <img src="https://github.com/SabrinaKaren/flutter-helper/blob/master/internationalization/assets/02_configuracao_pub.png" alt="screenshot" width="250" align="right">
