@@ -14,4 +14,4 @@
 5°) No 'main' do seu projeto é necessário incluir algumas configurações, conforme destaca a imagem:
 ![](https://github.com/SabrinaKaren/flutter-helper/blob/master/internationalization/assets/04_conf_main.png)
 
-6°) Pronto! As configurações básicas foram feitas. Caso você queria realizar um teste, [veja aqui](/example.md) um exemplo para testar.
+6°) Pronto! As configurações básicas foram feitas. Caso você queria realizar um teste, [veja aqui](/internationalization/example.md) um exemplo para testar.
