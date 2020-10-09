@@ -7,4 +7,4 @@
 Recomendo a leitura da documentação oficial que é bem completa: ![](https://pub.dev/packages/pin_code_fields)
 ##
 
-Caso você queria realizar um teste, [veja aqui](/internationalization/example.md) um exemplo simples e pronto.
+Caso você queria realizar um teste, [veja aqui](/https://github.com/SabrinaKaren/flutter-helper/blob/master/pin-code-widget/main.dart) um exemplo simples e pronto.
