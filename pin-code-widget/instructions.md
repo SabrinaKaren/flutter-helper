@@ -4,7 +4,7 @@
 ![](https://github.com/SabrinaKaren/flutter-helper/blob/master/pin-code-widget/assets/01_dependency.png)
 ##
 
-Recomendo a leitura da documentação oficial que é bem completa: ![](https://pub.dev/packages/pin_code_fields)
+Recomendo a leitura da documentação oficial que é bem completa: https://pub.dev/packages/pin_code_fields
 ##
 
 Caso você queria realizar um teste, [veja aqui](/pin-code-widget/main.dart) um exemplo simples e pronto.
