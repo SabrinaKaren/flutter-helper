@@ -8,3 +8,5 @@ Recomendo a leitura da documentação oficial que é bem completa: https://pub.d
 ##
 
 Caso você queria realizar um teste, [veja aqui](/pin-code-widget/main.dart) um exemplo simples e pronto.
+Este é o resultado deste código de exemplo:
+![](https://github.com/SabrinaKaren/flutter-helper/blob/master/pin-code-widget/assets/02_simulation.gif)
