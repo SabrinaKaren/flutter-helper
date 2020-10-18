@@ -69,3 +69,7 @@ void main() {
 }
 ```
 
+3º) Executando o aplicativo em diferentes ambientes
+Veja como criar configurações de execução específicas dos ambientes em IntelliJ IDEA ou Android Studio [aqui](https://github.com/SabrinaKaren/flutter-helper/tree/master/separating-build-environments)
+
+
