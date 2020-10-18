@@ -28,4 +28,44 @@ class AppConfig extends InheritedWidget {
 
 ##
 
-2°) 
+2°) Criar um arquivo de inicialização para cada ambiente.
+Exemplo de um arquivo de inicialização simulando ambiente dev:
+
+```yaml
+import 'package:flutter/material.dart';
+import 'app/app-widget.dart';
+import 'config/app-config.dart';
+
+void main() {
+
+  var configuredApp = AppConfig(
+    appName: 'App em Dev',
+    apiBaseUrl: 'https://url.api/dev',
+    child: AppWidget(),
+  );
+
+  runApp(configuredApp);
+
+}
+```
+
+Exemplo de um arquivo de inicialização simulando ambiente prod:
+
+```yaml
+import 'package:flutter/material.dart';
+import 'app/app-widget.dart';
+import 'config/app-config.dart';
+
+void main() {
+
+  var configuredApp = new AppConfig(
+    appName: 'App em Prod',
+    apiBaseUrl: 'https://url.api/prod',
+    child: new AppWidget(),
+  );
+
+  runApp(configuredApp);
+
+}
+```
+
