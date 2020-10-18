@@ -69,7 +69,21 @@ void main() {
 }
 ```
 
+##
+
 3º) Executando o aplicativo em diferentes ambientes
 Veja como criar configurações de execução específicas dos ambientes em IntelliJ IDEA ou Android Studio [aqui](https://github.com/SabrinaKaren/flutter-helper/tree/master/separating-build-environments)
 
+##
 
+4º) Utilizando uma varável do arquivo de configuração em seu projeto
+Exemplo:
+
+```yaml
+AppConfig.of(context).apiBaseUrl;
+```
+
+##
+
+5º) Executando efetivamente seu projeto
+Basta selecionar o arquivo de inicialização correspondente ao ambiente desejado e executar:
