@@ -1,7 +1,7 @@
 ### Instruções para separação de ambientes (dev/prod/etc)
 
-1°) Criar o objeto de configuração com as variáveis que você julgar necessárias
-Exemplo:
+1°) Criar o objeto de configuração com as variáveis que você julgar necessárias.  
+Exemplo:  
 
 ```yaml
 import 'package:flutter/material.dart';
@@ -28,8 +28,8 @@ class AppConfig extends InheritedWidget {
 
 ##
 
-2°) Criar um arquivo de inicialização para cada ambiente.
-Exemplo de um arquivo de inicialização simulando ambiente dev:
+2°) Criar um arquivo de inicialização para cada ambiente.  
+Exemplo de um arquivo de inicialização simulando ambiente dev:  
 
 ```yaml
 import 'package:flutter/material.dart';
@@ -49,7 +49,7 @@ void main() {
 }
 ```
 
-Exemplo de um arquivo de inicialização simulando ambiente prod:
+Exemplo de um arquivo de inicialização simulando ambiente prod:  
 
 ```yaml
 import 'package:flutter/material.dart';
@@ -71,13 +71,13 @@ void main() {
 
 ##
 
-3º) Executando o aplicativo em diferentes ambientes
-Veja como criar configuração de execução específica por ambiente em IntelliJ IDEA ou Android Studio [aqui](/separating-build-environments/add-run-debug-config-ide.md)
+3º) Executando o aplicativo em diferentes ambientes.  
+Veja como criar configuração de execução específica por ambiente em IntelliJ IDEA ou Android Studio [aqui](/separating-build-environments/add-run-debug-config-ide.md)  
 
 ##
 
-4º) Utilizando uma varável do arquivo de configuração em seu projeto
-Exemplo:
+4º) Utilizando uma varável do arquivo de configuração em seu projeto.  
+Exemplo:  
 
 ```yaml
 AppConfig.of(context).apiBaseUrl;
