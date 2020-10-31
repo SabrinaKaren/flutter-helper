@@ -85,6 +85,6 @@ AppConfig.of(context).apiBaseUrl;
 
 ##
 
-5º) Executando efetivamente seu projeto
-Basta selecionar o arquivo de inicialização correspondente ao ambiente desejado e executar:
+5º) Executando efetivamente seu projeto  
+Basta selecionar o arquivo de inicialização correspondente ao ambiente desejado e executar:  
 ![](https://github.com/SabrinaKaren/flutter-helper/blob/master/separating-build-environments/assets/selecionando_para_exec.png)
