@@ -38,16 +38,15 @@ execute novamente o comando 'flutter doctor' para verificar se a mensagem abaixo
 
 ##
 
-Se ao executar o comando 'flutter doctor', a mensagem abaixo for exibida, é porque ficou faltado configurar as licenças do Android Studio.
+Se ao executar o comando 'flutter doctor', a mensagem abaixo for exibida, é porque ficou faltando configurar as licenças do Android Studio.
 
 ```yaml
 [!] Android toolchain - develop for Android devices (Android SDK 27.0.3)
 ```
 
-Nesse caso execute o comando flutter doctor --android-licenses, ou se preferir execute C:\Users\<usuario>\AppData\Local\Android\Sdk\tools\bin\sdkmanager --licenses. Terá o mesmo efeito.
+Nesse caso, execute o comando flutter doctor --android-licenses, ou se preferir execute C:\Users\<usuario>\AppData\Local\Android\Sdk\tools\bin\sdkmanager --licenses. Terá o mesmo efeito.
 
-Porém se ao rodar o comando 'flutter doctor --android-licenses' e como resultado exibir a mensagem abaixo, é porque a variável de ambiente JAVA_HOME existe no SO e está apontando para uma versão não 
-suportada do jdk, geralmente 9 ou superior.
+Porém se ao rodar o comando 'flutter doctor --android-licenses' e como resultado exibir a mensagem abaixo, é porque a variável de ambiente JAVA_HOME existe no SO e está apontando para uma versão não suportada do jdk, geralmente 9 ou superior.
 
 ```yaml
 Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
@@ -63,6 +62,6 @@ Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
         ... 5 more
 ```
 
-Nesse caso baixe e instale a versão 8 do jdk, aponte a variável de ambiente JAVA_HOME para o home da instalação. Se o terminal estiver aberto, feche-o e abra-o novamente. Teste com o comando 'flutter doctor'.
+Nesse caso, baixe e instale a versão 8 do jdk, aponte a variável de ambiente JAVA_HOME para o home da instalação. Se o terminal estiver aberto, feche-o e abra-o novamente. Teste com o comando 'flutter doctor'.
 
 ##
