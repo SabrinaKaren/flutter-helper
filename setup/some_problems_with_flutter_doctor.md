@@ -1,6 +1,5 @@
 ## Alguns problemas com 'flutter doctor'
 
-##
 Se acontecer de o flutter não reconhecer os plugins instalados, como demonstado abaixo, uma alternativa é utilizar a vesão master ou dev em vez da versão stable.
 
 ```yaml
