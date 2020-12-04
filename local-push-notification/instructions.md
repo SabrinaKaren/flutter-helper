@@ -1,12 +1,12 @@
-### Exemplo de aplicação/configuração de widget do tipo PinCode
+### Instruções para configurar um projeto para disparar e receber notificações
 
-1°) Incluir a dependência no pubspec.yaml destacada na imagem abaixo:  
-![](https://github.com/SabrinaKaren/flutter-helper/blob/master/pin-code-widget/assets/01_dependency.png)
-##
+1°) Incluir a dependência no pubspec.yaml: [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications)
 
-Recomendo a leitura da documentação oficial que é bem completa: https://pub.dev/packages/pin_code_fields
-##
+2º) (Plus) Você pode habilitar o recurso de exibir a notificação quando o dispositivo está bloqueado. Para isso, basta adicionar o trecho de código abaixo no arquivo main/AndroidManifest.xml:
+```yaml
+<activity
+	android:showWhenLocked="true"
+	android:turnScreenOn="true">
+```
 
-Caso você queria realizar um teste, [veja aqui](/pin-code-widget/main.dart) um exemplo simples e pronto.  
-Este é o resultado deste código de exemplo:  
-![](https://github.com/SabrinaKaren/flutter-helper/blob/master/pin-code-widget/assets/02_simulation.gif)
+3º) Incluir um ícone para as notificações. Para isso, basta incluir uma imagem dentro da pasta destacada na imagem abaixo:
