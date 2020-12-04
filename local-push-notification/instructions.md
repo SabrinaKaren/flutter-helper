@@ -11,8 +11,8 @@
 
 3º) Incluir um ícone para as notificações. Para isso, basta incluir uma imagem dentro da pasta destacada na imagem abaixo:  
 ![](https://github.com/SabrinaKaren/flutter-helper/blob/master/local-push-notification/assets/01.png)
-> O nome do ícone é importante, pois será utilizado no código de exemplo!  
+> O nome do ícone é importante, pois será utilizado no código de [exemplo](local-push-notification/example.dart)!  
 
-Pronto! As configurações básicas necessárias foram feitas, agora que tal irmos para um exemplo?  
+Pronto! As configurações básicas necessárias foram feitas, agora que tal irmos para um [exemplo](local-push-notification/example.dart)?  
 Este exemplo possui o gif abaixo como resultado:  
 ![](https://github.com/SabrinaKaren/flutter-helper/blob/master/local-push-notification/assets/02.gif)
