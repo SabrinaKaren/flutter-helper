@@ -8,3 +8,4 @@ A Flutter repository to helper with several points about Flutter
  - Separação de ambientes: [Separating Build Environments](/separating-build-environments/instructions.md)
  - Envio de notificação localmente: [Local push notification](local-push-notification/instructions.md)
  - Gerenciamento de estado com Provider: [Provider (state management)](state-management-provider/steps.md)
+ - Gerenciamento de estado com StreamController e Bloc: [Bloc + StreamController (state management)](state-management-bloc/steps.md)
