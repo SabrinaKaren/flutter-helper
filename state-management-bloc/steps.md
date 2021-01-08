@@ -12,7 +12,7 @@ Na imagem ainda é possível perceber mais dois trechos de códigos destacados; 
 O widget a receber o novo valor deve ser envelopado por "StreamBuilder", onde informamos:
 - o stream (que na verdade é o nosso output);
 - e o builder (que é o construtor).
-> Dentro do builder retornamos o nosso widget que passará a acessar o estado atual da varável, que está sendo alterado atraves do "inputLink".
+> Dentro do builder retornamos o nosso widget que passará a acessar o estado atual da varável, que está sendo alterado através do "inputLink".
 ##
 
 - Para um entendimento dos passos que descrevi aqui, recomendo a análise do [projetinho](https://github.com/SabrinaKaren/flutter-projects/tree/master/35_get_whatsapp_bloc) que fiz aplicando Provider como gerenciador de estados.
