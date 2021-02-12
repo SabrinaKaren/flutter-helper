@@ -1,8 +1,10 @@
 ### Passos para tirar o ícone padrão do Flutter e colocar o seu
 
 1°) Incluir a dependência [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) no pubspec.yaml destacada na imagem abaixo:  
+![](https://github.com/SabrinaKaren/flutter-helper/blob/master/changing-app-icon/assets/01.png)
 ##
 2°) Definir os ícones no pubspec.yaml, sendo necessário seu ícone já estar dentro do projeto. A imagem abaixo mostra o trecho de código a ser inserido, onde mostra a indicação do ícone (assets/icon-app-test.png).  
+![](https://github.com/SabrinaKaren/flutter-helper/blob/master/changing-app-icon/assets/02.png)
 ##
 3º) Executar o comando abaixo no prompt de comando dentro da pasta do seu projeto:
 ```yaml
