@@ -11,7 +11,7 @@
 flutter pub run flutter_launcher_icons:main
 ```
 > Uma mensagem parecida a destacada na imagem abaixo deve aparecer ao executar o comando:  
-
+![](https://github.com/SabrinaKaren/flutter-helper/blob/master/changing-app-icon/assets/03.png)
 ##
 4º) Verificar se os ícones foram gerados corretamente.  
 Para isso, vá em:
