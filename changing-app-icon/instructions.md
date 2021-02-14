@@ -21,4 +21,5 @@ android > app > src > main > res > mipmap
 E veja se os ícones dentro destas paras mipmap são o seu ícone. Se estiver o ícone do Flutter significa que não deu certo.  
 ##
 5º) Agora falta apenas ver o ícone aparecendo no dispositivo. Vamos executar o projeto, depois que estiver iniciado, vamos fecher e ver na tela do dispositivo qual ícone está atribuído para o seu app.  
-Veja a visualização do meu em um dispositivo android:
+Veja a visualização do meu em um dispositivo android:  
+![](https://github.com/SabrinaKaren/flutter-helper/blob/master/changing-app-icon/assets/04.png)
