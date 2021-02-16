@@ -23,3 +23,5 @@ E veja se os ícones dentro destas paras mipmap são o seu ícone. Se estiver o 
 5º) Agora falta apenas ver o ícone aparecendo no dispositivo. Vamos executar o projeto, depois que estiver iniciado, vamos fechar e ver na tela do dispositivo qual ícone está atribuído para o seu app.  
 Veja a visualização do meu em um dispositivo android:  
 ![](https://github.com/SabrinaKaren/flutter-helper/blob/master/changing-app-icon/assets/04.png)
+##
+> Recomendo sempre ler e seguir a documentação oficial do plugin, disponível em: [https://pub.dev/packages/flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons).
