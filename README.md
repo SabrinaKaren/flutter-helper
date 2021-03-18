@@ -10,3 +10,4 @@ A Flutter repository to helper with several points about Flutter.
  - Gerenciamento de estado com StreamController e Bloc: [Bloc + StreamController (state management)](state-management-bloc/steps.md)
  - Incluindo um ícone para o seu app: [Changing app icon](changing-app-icon/instructions.md)
  - Como fechar teclado em iOS: [Fechar teclado iOS](close-keyboard-ios/instructions.md)
+ - Criptografia descomplicada: [Criptografia descomplicada](crypting/instructions.md)
