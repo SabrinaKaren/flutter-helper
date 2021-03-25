@@ -16,3 +16,5 @@ Basta envolver toda a sua tela em um widget GestureDetector, e no onTap colocar 
 ```yaml
 FocusScope.of(context).requestFocus(new FocusNode());
 ```
+
+Desta forma, basta apertar em qualquer parte da tela que o teclado será fechado; e é útil tanto para dispositivos android e iOS.
