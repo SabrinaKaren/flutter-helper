@@ -8,13 +8,13 @@
 - Já os dispositivos ios não possuem este recurso, e assim, surge um problema: ao abrir o teclado numérico, como fecha-lo? A imagem abaixo mostra o teclado numérico virtual de um emulador ios:  
 ![](https://github.com/SabrinaKaren/flutter-helper/blob/master/close-keyboard-ios/assets/02.png)
 
-#### Sendo assim, como o usuário vai fechar o teclado numério em seu iPhone?  
+#### Sendo assim, como o usuário vai fechar o teclado numérico em seu iPhone?
 #### Este post vai solucionar justamente este problema, e o melhor, de uma forma tão simples que irá te surpreender!  
 
-#### Solução:  
+#### Solução:
 Basta envolver toda a sua tela em um widget GestureDetector, e no onTap colocar o seguinte código:  
 ```yaml
 FocusScope.of(context).requestFocus(new FocusNode());
 ```
 
-Desta forma, basta apertar em qualquer parte da tela que o teclado será fechado; e é útil tanto para dispositivos android e iOS.
+Desta forma, basta apertar em qualquer parte da tela que o teclado será fechado; e é útil tanto para dispositivos android e iOS! 😉
