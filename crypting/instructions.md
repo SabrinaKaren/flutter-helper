@@ -23,3 +23,5 @@ void main() {
   print("Digest as hex string: $digest");
 }
 ```
+
+> Sendo importante recomendar sempre a utilização da documentação oficial que pode ser encontrada no site do pub.dev
